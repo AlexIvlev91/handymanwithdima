@@ -228,7 +228,7 @@ const LandingPage = () => {
                     right: 20,
                     display: { xs: 'block', md: 'none' },
                 }}
-                onClick={handleOpenModal}
+                onClick={() => window.open(`tel:${phoneNumber}`)}
             >
                 <Phone />
             </Fab>
